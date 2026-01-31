@@ -115,3 +115,4 @@ Before you can do anything, you need to trust a **Mint**. A mint exchanges Bitco
 
 
 *   **Logs & Data:** Data is stored in `~/.cashu-wallet/wallet.db`.
+*   **Recommended Mint:** `https://mint.coinos.io`
