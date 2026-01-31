@@ -1,0 +1,30 @@
+{
+  "name": "cashu-wallet-cli",
+  "version": "1.0.0",
+  "description": "CLI wrapper for the Cashu wallet",
+  "type": "module",
+  "main": "wallet.mjs",
+  "bin": {
+    "cashu-wallet": "./wallet.mjs"
+  },
+  "scripts": {
+    "start": "node wallet.mjs",
+    "test": "node wallet.mjs balance"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "coco-cashu-core": "^1.1.2-rc.43",
+    "coco-cashu-sqlite3": "^1.1.2-rc.43"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cashu",
+    "bitcoin",
+    "lightning",
+    "ecash",
+    "wallet"
+  ],
+  "license": "MIT"
+}
